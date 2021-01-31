@@ -1,13 +1,54 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+  margin:0;
+  padding :0;
+}
+.box{
+  background-color: black;
+  color:red;
+  
+ 
+  padding:10px;
+  margin:150px;
+  
+  height:300px;
+  width:300px;
+  display: inline-block;
+  font-family: 'Kanit', sans-serif;
+  border-radius: 15px;
+ 
+  
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.writtenbox{
+  text-align: center;
+margin: 5px;
+padding: 5px;
+border: 1px dashed black;
+border-radius: 10px;
+}
+.Lox h1{
+  padding-top: 50px;
+ text-align: center;
+  color:red;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  word-spacing: 2px;
+  font-size: xx-large;
+  font-family: 'Coda Caption', sans-serif;
+  font-family: 'Fraunces', serif;
+}
+.Lox{
+
+  height:100vh;
+  width:100%;
+  border:1px solid blue;
+  overflow:scroll;
+ background-image: url("https://miro.medium.com/max/700/1*T_bJaPmnB7Muy1Vw67CBqg.png");
+ background-repeat: no-repeat;
+ background-size:100%;
+  background-color:black;
+}
+.Lox button{
+  color:red;
+  background-color: black;
 }
